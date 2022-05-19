@@ -108,15 +108,26 @@ h2{
     html{
         font-size:20px;
     }
+    .main-container{
+        width: 100vw;
+    }
+    .top{
+        font-size: 2rem;
+        width: 35vw;
+    }
     .boxes{
-        height:250px;
+       
         width: 350px;
         
     }
     .box-container{
          display:flex;
          gap: 28px;
-         align-items: center;
+         align-items: center;}
+
+    .boxes > p{
+        margin-bottom: 47px;
+        font-size: .75rem;
     
     }
     .center-boxes{
